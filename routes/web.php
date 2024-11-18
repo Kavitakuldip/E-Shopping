@@ -35,6 +35,7 @@ Route::get('/product/color/index',[ProductColorController::class,'index']);
 Route::get('productindex',[ProductController::class,'index']);
 Route::get('productcreate',[ProductController::class,'create']);
 Route::post('productstore',[ProductController::class,'store']);
+Route::post('productstore',[ProductController::class,'store']);///
 
 
 ///Client
