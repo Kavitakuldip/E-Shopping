@@ -86,5 +86,8 @@ class CategoryController extends Controller
         return redirect('/Admin/Categoris/Index')->with('message','Category Update Successfully');
 
     }
+    public function new(){
+        
+    }
     
 }
